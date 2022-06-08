@@ -1,6 +1,6 @@
 # Microdiachronic Study of the Russian Prefixes with Distributional Semantic Models: Bachelor's Thesis
 ## Author: Elizaveta Klykova
-### National Research University Higher School of Economics, School of Linguistic, 2022
+### National Research University Higher School of Economics, School of Linguistics, 2022
 #### If you have any questions, feel free to contact me at eaklykova@edu.hse.ru
 
 Distributional semantics has a broad area of applications, from information retrieval to machine translation and text generation. In recent years, word embeddings have been actively used for the task of Semantic Change Detection (SCD). However, no attempts have been made so far to solve this task for units smaller than words, i. e. morphemes. In this study, we attempt to establish whether traditional SCD methods can be applied to Russian verbal prefixes. For each prefix, we calculate the degree of its change based on vector representations of the verbs that contain it. The methods we test include word2vec, fastText, and ELMo, as well as the “grammar profiles” method that appeared only recently. We analyze changes in prefixes using information about their compatibility and polysemy, as well as the frequency of the verbs containing them. The results show that traditional methods of detecting diachronic shifts in words are not suitable for a similar task on prefixes, since Russian verbal prefixes are characterized by a complex system of relationships between compatibility, frequency, and polysemy.
